@@ -1,0 +1,7 @@
+Q3 2026 Support Metrics — internal summary
+
+Ticket volume for Q3 2026 was 12,480 tickets.
+8,214 tickets were resolved in under 24 hours.
+Average first response time was 3.2 hours.
+CSAT was 4.31 out of 5, based on 2,140 survey responses.
+Tickets by category: billing 3,912; login issues 2,847; feature requests 1,930; other 2,791.

@@ -1,0 +1,101 @@
+{
+  "run_id": "bbd23d2c64f2",
+  "task": "Summarize Q3 2026 support operations from the source documents",
+  "overall": "has contradictions",
+  "counts": {
+    "total": 8,
+    "supported": 5,
+    "contradicted": 2,
+    "unverifiable": 1
+  },
+  "duration_s": 0.04,
+  "non_claim_sentences": 2,
+  "results": [
+    {
+      "idx": 0,
+      "claim": "Q3 ticket volume was 12,480.",
+      "method": "source",
+      "verdict": "supported",
+      "reason": "Every number in the claim matches the cited source.",
+      "evidence": [
+        "S1 \u2014 \"Ticket volume for Q3 2026 was 12,480 tickets.\""
+      ],
+      "detail": ""
+    },
+    {
+      "idx": 1,
+      "claim": "8,214 tickets were resolved in under 24 hours.",
+      "method": "source",
+      "verdict": "supported",
+      "reason": "Every number in the claim matches the cited source.",
+      "evidence": [
+        "S1 \u2014 \"8,214 tickets were resolved in under 24 hours.\""
+      ],
+      "detail": ""
+    },
+    {
+      "idx": 2,
+      "claim": "Average first response time was 3.2 hours.",
+      "method": "source",
+      "verdict": "supported",
+      "reason": "Every number in the claim matches the cited source.",
+      "evidence": [
+        "S1 \u2014 \"Average first response time was 3.2 hours.\""
+      ],
+      "detail": ""
+    },
+    {
+      "idx": 3,
+      "claim": "CSAT was 4.31 out of 5 across 2,140 survey responses.",
+      "method": "source",
+      "verdict": "supported",
+      "reason": "Every number in the claim matches the cited source.",
+      "evidence": [
+        "S1 \u2014 \"CSAT was 4.31 out of 5, based on 2,140 survey responses.\""
+      ],
+      "detail": ""
+    },
+    {
+      "idx": 4,
+      "claim": "65.8% of Q3 tickets were resolved in under 24 hours (8,214 / 12,480).",
+      "method": "compute",
+      "verdict": "supported",
+      "reason": "The stated calculation re-runs to the claimed value.",
+      "evidence": [
+        "Re-ran 8,214 / 12,480 = 65.82%; claim says 65.8%."
+      ],
+      "detail": ""
+    },
+    {
+      "idx": 5,
+      "claim": "Login issues totaled 2,974 tickets.",
+      "method": "source",
+      "verdict": "contradicted",
+      "reason": "The source states a different number for the same fact.",
+      "evidence": [
+        "S1 \u2014 \"Tickets by category: billing 3,912; login issues 2,847; feature requests 1,930; other 2,791.\""
+      ],
+      "detail": ""
+    },
+    {
+      "idx": 6,
+      "claim": "Priya Nair, the on-call engineer, said: \"The failover took 11 minutes longer than the runbook said it should.\"",
+      "method": "quote",
+      "verdict": "contradicted",
+      "reason": "The quote is real, but the source attributes it to Maya Chen, not Priya Nair.",
+      "evidence": [
+        "S2 \u2014 \"Maya Chen (on-call engineer): \"The failover took 11 minutes longer than the runbook said it should.\"\""
+      ],
+      "detail": ""
+    },
+    {
+      "idx": 7,
+      "claim": "Customer churn fell 18% in Q3 after the support improvements.",
+      "method": "source",
+      "verdict": "unverifiable",
+      "reason": "No source document states the numbers in this claim.",
+      "evidence": [],
+      "detail": ""
+    }
+  ]
+}

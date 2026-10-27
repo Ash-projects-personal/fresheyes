@@ -1,0 +1,5 @@
+Q3 2026 Incident Notes
+
+On September 14, 2026, the support portal was down for 47 minutes. The outage affected 312 accounts.
+Maya Chen (on-call engineer): "The failover took 11 minutes longer than the runbook said it should."
+The September 14 outage was the only full outage in Q3.
